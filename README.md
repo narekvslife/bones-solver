@@ -8,8 +8,7 @@
 	- During the first stage players choose which combination they want to score.
 	- During the second stage, combinations go in the order of the table.
 
----
-*Table of combinations*: 
+## Table of combinations
 
 - 1: (#number_of_dice_with_value_1 - 3) * 1
 -//- 
@@ -27,7 +26,6 @@
 - min: value of min dice value on the table
 
 plus: you get 130pts for scoring >= across the 1-6 fields
----
 
 ## Formalization
 
