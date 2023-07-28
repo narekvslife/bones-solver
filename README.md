@@ -11,7 +11,7 @@
 ## Table of combinations
 
 - 1: (#number_of_dice_with_value_1 - 3) * 1
--//- 
+- ...
 - 6: (#number_of_dice_with_value_6 - 3) * 6
 - pair: sum of a pair
 - 2+2: sum of two pairs (not kare)
@@ -35,16 +35,12 @@ We have:
 - Players
 - Combinations
 
-The goal is to maximize the score. Since the scores are RVs we can only
-maximize the expected score.
+In the beginning of each player's turn she *has to* roll all five of the dice.
+This gives us a starting point.
 
-In the beginning of each player's turn she *has to* roll all five of the dice,
-so we start our computations from there
+## Q&A
 
-## Strategy
-
-Does optimal strategy depend on the scores of other players?
-
-A
-
+- Q: Does optimal strategy depend on the scores of other players?
+  A: Looks like it should, becausethe goal is not to get the maximum value but rather to get more than everyone elsew.
+- Q: Does greedy work here?
 
